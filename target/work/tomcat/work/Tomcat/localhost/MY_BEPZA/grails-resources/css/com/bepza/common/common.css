@@ -1,0 +1,99 @@
+/*
+* reated by hoshen.mahmud on 04-Feb-16.
+*
+*======================================================================================================================================================*/
+
+.bold {
+    font-weight: bold;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.justified {
+    text-align: justify;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.ri {
+    color: red;
+    font-weight: bold;
+}
+
+.transparent {
+    background-color: transparent;
+}
+
+.table thead th {
+    text-align: center;
+    background-color: #ADD8E6;
+    color: #191970;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------
+* 			Number field
+*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.nf{
+    text-align: right;
+}
+
+input[type=number] {
+    text-align: right;
+}
+
+.currency {
+    /*color:red;*/
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------
+* 			File upload button
+*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    background: red;
+    cursor: inherit;
+    display: block;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------
+* Remove Spinner Icon from number field
+*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+input[readonly] {
+    background-color: white !important;
+    cursor: text !important;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*======================================================================================================================================================*/

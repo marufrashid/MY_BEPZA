@@ -1,0 +1,43 @@
+;;; 
+Export: Release 11.2.0.1.0 - Production on Wed May 4 10:38:43 2016
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Starting "MY_BEPZA"."SYS_EXPORT_SCHEMA_01":  my_bepza/********@orcl directory=dmp_dir dumpfile=my_bepza.dmp 
+Estimate in progress using BLOCKS method...
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 448 KB
+Processing object type SCHEMA_EXPORT/USER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+. . exported "MY_BEPZA"."ALL_LOOKUP"                      7.75 KB      11 rows
+. . exported "MY_BEPZA"."AUTH_MENU"                      13.42 KB      15 rows
+. . exported "MY_BEPZA"."AUTH_REQUESTMAP"                10.24 KB      42 rows
+. . exported "MY_BEPZA"."AUTH_ROLE"                      7.601 KB       1 rows
+. . exported "MY_BEPZA"."AUTH_USER"                      11.96 KB       1 rows
+. . exported "MY_BEPZA"."AUTH_USER_ROLE"                 5.523 KB       1 rows
+. . exported "MY_BEPZA"."VR_REQUIRED_DOC_DTL"            10.83 KB       2 rows
+. . exported "MY_BEPZA"."ALL_CODE_DEF"                       0 KB       0 rows
+. . exported "MY_BEPZA"."ALL_DESIGNATION"                    0 KB       0 rows
+. . exported "MY_BEPZA"."CP_ENTRPRS_MST"                     0 KB       0 rows
+. . exported "MY_BEPZA"."LANDING_PAGES"                      0 KB       0 rows
+. . exported "MY_BEPZA"."VR_APPLICATION_INFO"                0 KB       0 rows
+. . exported "MY_BEPZA"."VR_APP_INFO_APRVL_HISTRY"           0 KB       0 rows
+. . exported "MY_BEPZA"."VR_BLOCK_LIST"                      0 KB       0 rows
+. . exported "MY_BEPZA"."VR_REQUIRED_DOC"                    0 KB       0 rows
+Master table "MY_BEPZA"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for MY_BEPZA.SYS_EXPORT_SCHEMA_01 is:
+  E:\DMP_DIR\MY_BEPZA.DMP
+Job "MY_BEPZA"."SYS_EXPORT_SCHEMA_01" successfully completed at 10:39:08
